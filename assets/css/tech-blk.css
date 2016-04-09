@@ -8,11 +8,15 @@
   color:#fff;
   text-transform:uppercase;
   font-size:1.2em;
+  height:100%;
+  background-size:cover;
+  background-image:url('../../assets/img/paris.jpg');
+  background-repeat:no-repeat;
 }
 
 #tech-blk-content{
-  background-size:cover;
-  background:url('../../assets/img/paris.jpg') no-repeat center center;
+  padding-top:250px;
+  padding-bottom:300px;
 }
 
 #tech-box{
