@@ -1,0 +1,54 @@
+#tech-blk{
+  padding-top:100px;
+}
+
+#tech-img-box{
+  padding:0;
+  margin:0;
+  color:#fff;
+  text-transform:uppercase;
+  font-size:1.2em;
+}
+
+#tech-blk-content{
+  background-size:cover;
+  background:url('../../assets/img/paris.jpg') no-repeat center center;
+}
+
+#tech-box{
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+.tech-header{
+  display:inline-block;
+  line-height:2px;
+  padding-left:0;
+  padding-right:0;
+}
+
+.my-icon{
+  padding-left:0;
+  padding-right:15px;
+  float:left;
+  color:#E0CD34;
+}
+
+.tech-header i{
+  font-size:4em;
+}
+
+.tech-h-text{
+  padding:0;
+}
+
+.tech-h{
+  display:inline-block;
+  margin-top:0;
+  line-height:2;
+}
+
+.tech-row{
+  margin-bottom:30px;
+}
+

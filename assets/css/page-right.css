@@ -30,6 +30,7 @@
   justify-content:space-around;
   -webkit-align-items:center;
   align-items:center;
+  color:#fff;
 }
 
 .service-content{
@@ -73,6 +74,10 @@
 .more-btn{
   border-radius:15px;
   border:2px solid #ffffff;
+  color:#fff;
+  font-size:1.2em;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 .more-btn:hover{
