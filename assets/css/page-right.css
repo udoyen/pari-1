@@ -1,0 +1,103 @@
+#page-right{
+}
+
+#main-img{
+  padding:0;
+  margin:0;
+}
+
+#jumbo-container{
+  padding-left:0;
+  padding-right:0;
+}
+
+#my-jumbo{
+  height:90vh;
+  width:100%;
+  border-radius:0;
+  background: url('../../assets/img/paris.jpg') no-repeat center center;
+  background-size:cover;
+}
+
+#service-block{
+  padding-right:15px;
+  padding-left:15px;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  -webkit-display:flex;
+  -webkit-justify-content:space-around;
+  justify-content:space-around;
+  -webkit-align-items:center;
+  align-items:center;
+}
+
+.service-content{
+  height:321px;
+  text-transform:uppercase;
+  margin:10px;
+  padding-top:105px;
+}
+
+#first{
+  background:#FF2E1E;
+}
+
+#second{
+  background:#E0CD34;
+}
+
+#third{
+  background:#11B21C;
+}
+
+.service-img{
+  font-size:3.5em;
+}
+
+.blk-img-container{
+  text-align:center;
+}
+
+.content-invisible{
+  display:none;
+}
+
+.my-content{
+  text-align:center;
+  padding-bottom:10px;
+  -webkit-transition:display 0.3s ease-in-out;
+  transition:display 0.3s ease-in-out;
+}
+
+.more-btn{
+  border-radius:15px;
+  border:2px solid #ffffff;
+}
+
+.more-btn:hover{
+  border-color:#000000;
+  background:#000000 !important;
+  -webkit-transition:background, border-color 0.3s ease-in-out;
+  transition:background, border-color 0.3s ease-in-out;
+  color:#ffffff;
+}
+
+.invisible-text{
+  font-size:1em;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+#btn-1{
+  background:#FF2E1E;
+}
+
+#btn-2{
+  background:#E0CD34;
+}
+
+#btn-3{
+  background:#11B21C;
+}
+
