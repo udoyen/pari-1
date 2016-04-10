@@ -18,3 +18,8 @@ p{
   font-size:1.4em;
 }
 
+.page-wrapper{
+  background-image:url('../../assets/img/diagonal_striped_brick.png');
+  background-repeat:repeat;
+}
+
