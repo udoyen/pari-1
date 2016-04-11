@@ -15,9 +15,7 @@
   height:90vh;
   width:100%;
   border-radius:0;
-  background-image:url('../../assets/img/paris.jpg');
-  background-repeat:no-repeat;
-  background-position:center center;
+  background: url('../../assets/img/paris.jpg') no-repeat center center;
   background-size:cover;
 }
 
@@ -73,6 +71,19 @@
   transition:display 0.3s ease-in-out;
 }
 
+#tech-blk{
+  padding-right:0;
+}
+
+#m-row{
+  margin-left:0;
+  margin-right:0;
+}
+
+#tech-row{
+  margin-right:0;
+}
+
 .more-btn{
   border-radius:15px;
   border:2px solid #ffffff;
@@ -83,8 +94,8 @@
 }
 
 .more-btn:hover{
-  border-color:#000000;
-  background:#000000 !important;
+  border-color:#282828;
+  background:#282828 !important;
   -webkit-transition:background, border-color 0.3s ease-in-out;
   transition:background, border-color 0.3s ease-in-out;
   color:#ffffff;
@@ -106,5 +117,72 @@
 
 #btn-3{
   background:#11B21C;
+}
+
+#portfolio-wrapper{
+  padding-top:100px;
+}
+
+#port-para-text{
+  width:70%;
+  margin: 0 auto 40px;
+}
+
+.port-btn{
+  border-radius:50px;
+  padding:5px 20px;
+  margin:0px 3px;
+  font-weight:300;
+  color:#999;
+}
+
+.port-btn:hover{
+  color:#fff;
+  background-color:#28F;
+  -webkit-transition:all 300ms ease-in-out;
+  transition:all 300ms ease-in-out;
+}
+
+#port-btn-container{
+  margin:0 auto;
+  text-align:center;
+}
+
+button.is-checked{
+  color:#fff;
+  text-shadow:0 -1px hsla(0, 0%, 0%, 0.8);
+  background-color:#28F !important;
+}
+
+.button:active{
+  box-shadow:inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+#port-wrapper{
+  padding:0;
+  margin:0;
+}
+
+#port-img-row{
+  padding: 50px 0 180px;
+}
+
+#port-img-row-2{
+  padding:0;
+  margin:0;
+}
+
+#port-img-container{
+  margin-bottom:10px;
+}
+
+.my-thumbnail{
+  width:25%;
+}
+
+.thumbnail{
+  border:none;
+  padding:0;
+  margin:12px;
 }
 

@@ -23,8 +23,3 @@ p{
   background-repeat:repeat;
 }
 
-header > #page-left{
-  background-image: url('../../assets/img/carbon_fibre.png');
-  background-repeat: repeat;
-  background-origin: border-box;
-}
